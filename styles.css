@@ -49,6 +49,43 @@
   src: url("assets/fonts/montserrat-latin-700-normal.woff2") format("woff2");
 }
 
+/* Arabic letters only (license: assets/fonts/OFL-Cairo.txt); Latin text keeps Montserrat */
+@font-face {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/cairo-arabic-400-normal.woff2") format("woff2");
+  unicode-range: U+0600-06FF,U+0750-077F,U+0870-088E,U+0890-0891,U+0897-08E1,U+08E3-08FF,U+200C-200E,U+2010-2011,U+204F,U+2E41,U+FB50-FDFF,U+FE70-FE74,U+FE76-FEFC,U+102E0-102FB,U+10E60-10E7E,U+10EC2-10EC4,U+10EFC-10EFF,U+1EE00-1EE03,U+1EE05-1EE1F,U+1EE21-1EE22,U+1EE24,U+1EE27,U+1EE29-1EE32,U+1EE34-1EE37,U+1EE39,U+1EE3B,U+1EE42,U+1EE47,U+1EE49,U+1EE4B,U+1EE4D-1EE4F,U+1EE51-1EE52,U+1EE54,U+1EE57,U+1EE59,U+1EE5B,U+1EE5D,U+1EE5F,U+1EE61-1EE62,U+1EE64,U+1EE67-1EE6A,U+1EE6C-1EE72,U+1EE74-1EE77,U+1EE79-1EE7C,U+1EE7E,U+1EE80-1EE89,U+1EE8B-1EE9B,U+1EEA1-1EEA3,U+1EEA5-1EEA9,U+1EEAB-1EEBB,U+1EEF0-1EEF1;
+}
+
+@font-face {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/cairo-arabic-500-normal.woff2") format("woff2");
+  unicode-range: U+0600-06FF,U+0750-077F,U+0870-088E,U+0890-0891,U+0897-08E1,U+08E3-08FF,U+200C-200E,U+2010-2011,U+204F,U+2E41,U+FB50-FDFF,U+FE70-FE74,U+FE76-FEFC,U+102E0-102FB,U+10E60-10E7E,U+10EC2-10EC4,U+10EFC-10EFF,U+1EE00-1EE03,U+1EE05-1EE1F,U+1EE21-1EE22,U+1EE24,U+1EE27,U+1EE29-1EE32,U+1EE34-1EE37,U+1EE39,U+1EE3B,U+1EE42,U+1EE47,U+1EE49,U+1EE4B,U+1EE4D-1EE4F,U+1EE51-1EE52,U+1EE54,U+1EE57,U+1EE59,U+1EE5B,U+1EE5D,U+1EE5F,U+1EE61-1EE62,U+1EE64,U+1EE67-1EE6A,U+1EE6C-1EE72,U+1EE74-1EE77,U+1EE79-1EE7C,U+1EE7E,U+1EE80-1EE89,U+1EE8B-1EE9B,U+1EEA1-1EEA3,U+1EEA5-1EEA9,U+1EEAB-1EEBB,U+1EEF0-1EEF1;
+}
+
+@font-face {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/fonts/cairo-arabic-600-normal.woff2") format("woff2");
+  unicode-range: U+0600-06FF,U+0750-077F,U+0870-088E,U+0890-0891,U+0897-08E1,U+08E3-08FF,U+200C-200E,U+2010-2011,U+204F,U+2E41,U+FB50-FDFF,U+FE70-FE74,U+FE76-FEFC,U+102E0-102FB,U+10E60-10E7E,U+10EC2-10EC4,U+10EFC-10EFF,U+1EE00-1EE03,U+1EE05-1EE1F,U+1EE21-1EE22,U+1EE24,U+1EE27,U+1EE29-1EE32,U+1EE34-1EE37,U+1EE39,U+1EE3B,U+1EE42,U+1EE47,U+1EE49,U+1EE4B,U+1EE4D-1EE4F,U+1EE51-1EE52,U+1EE54,U+1EE57,U+1EE59,U+1EE5B,U+1EE5D,U+1EE5F,U+1EE61-1EE62,U+1EE64,U+1EE67-1EE6A,U+1EE6C-1EE72,U+1EE74-1EE77,U+1EE79-1EE7C,U+1EE7E,U+1EE80-1EE89,U+1EE8B-1EE9B,U+1EEA1-1EEA3,U+1EEA5-1EEA9,U+1EEAB-1EEBB,U+1EEF0-1EEF1;
+}
+
+@font-face {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/fonts/cairo-arabic-700-normal.woff2") format("woff2");
+  unicode-range: U+0600-06FF,U+0750-077F,U+0870-088E,U+0890-0891,U+0897-08E1,U+08E3-08FF,U+200C-200E,U+2010-2011,U+204F,U+2E41,U+FB50-FDFF,U+FE70-FE74,U+FE76-FEFC,U+102E0-102FB,U+10E60-10E7E,U+10EC2-10EC4,U+10EFC-10EFF,U+1EE00-1EE03,U+1EE05-1EE1F,U+1EE21-1EE22,U+1EE24,U+1EE27,U+1EE29-1EE32,U+1EE34-1EE37,U+1EE39,U+1EE3B,U+1EE42,U+1EE47,U+1EE49,U+1EE4B,U+1EE4D-1EE4F,U+1EE51-1EE52,U+1EE54,U+1EE57,U+1EE59,U+1EE5B,U+1EE5D,U+1EE5F,U+1EE61-1EE62,U+1EE64,U+1EE67-1EE6A,U+1EE6C-1EE72,U+1EE74-1EE77,U+1EE79-1EE7C,U+1EE7E,U+1EE80-1EE89,U+1EE8B-1EE9B,U+1EEA1-1EEA3,U+1EEA5-1EEA9,U+1EEAB-1EEBB,U+1EEF0-1EEF1;
+}
+
 /* ---------- Reset ---------- */
 
 *,
@@ -149,43 +186,44 @@ button {
 
 .site-header {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
-.logo {
+/* Official logo image. Its own dark background is faded into the page at the edges
+   (the image file itself is not changed). */
+.logo-img {
+  display: block;
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  margin: 0 auto;
+  -webkit-mask-image:
+    linear-gradient(to right, transparent 0, #000 5%, #000 95%, transparent 100%),
+    linear-gradient(to bottom, transparent 0, #000 7%, #000 93%, transparent 100%);
+  -webkit-mask-composite: source-in;
+  mask-image:
+    linear-gradient(to right, transparent 0, #000 5%, #000 95%, transparent 100%),
+    linear-gradient(to bottom, transparent 0, #000 7%, #000 93%, transparent 100%);
+  mask-composite: intersect;
+}
+
+/* Language switch (top-left, away from the gold accent) */
+.lang-switch {
+  position: absolute;
+  top: 0.25rem;
+  left: 0.75rem;
+  z-index: 1;
   display: inline-flex;
-  flex-direction: column;
   align-items: center;
-  line-height: 1;
-}
-
-.logo-main {
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: 0.18em;
-  margin-right: -0.18em; /* balance trailing letter-spacing */
-  background: var(--gold-gradient);
-  -webkit-background-clip: text;
-  background-clip: text;
+  min-height: 44px;
+  padding: 0 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
   color: var(--gold);
-  -webkit-text-fill-color: transparent;
 }
 
-.logo-sub {
-  margin-top: 0.4rem;
-  font-size: 0.75rem;
-  font-weight: 500;
-  letter-spacing: 0.6em;
-  margin-right: -0.6em;
-  color: var(--text-muted);
-}
-
-.tagline {
-  margin-top: 0.9rem;
-  font-size: 0.75rem;
-  font-weight: 500;
-  letter-spacing: 0.28em;
-  color: var(--gold);
+.lang-switch:hover {
+  color: var(--gold-light);
 }
 
 /* ---------- Identity ---------- */
@@ -241,47 +279,10 @@ button {
   stroke-linejoin: round;
 }
 
-/* ---------- Action buttons ---------- */
+/* ---------- Main actions: Save Contact + Share ---------- */
 
-.actions ul {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0.75rem;
-}
-
-.actions li:last-child {
-  grid-column: 1 / -1;
-}
-
-.actions a {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.4rem;
-  min-height: 72px;
-  padding: 0.75rem 0.5rem;
-  border: 1px solid var(--gold-line);
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.02);
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  transition: border-color 0.2s, background-color 0.2s;
-}
-
-.actions a:hover,
-.actions a:active {
-  border-color: var(--gold);
-  background: rgba(201, 162, 74, 0.08);
-}
-
-/* ---------- Save Contact ---------- */
-
-.save-contact {
-  margin-top: 1rem;
-  margin-bottom: 2.25rem;
+.main-actions {
+  margin-bottom: 1.25rem;
 }
 
 .btn-save {
@@ -315,6 +316,41 @@ button {
 
 .btn-save:active {
   transform: scale(0.98);
+}
+
+.btn-share {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  width: 100%;
+  min-height: 48px;
+  margin-top: 0.75rem;
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--gold-line);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--text);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.btn-share:hover,
+.btn-share:active {
+  border-color: var(--gold);
+  background: rgba(201, 162, 74, 0.08);
+}
+
+.share-msg {
+  min-height: 1.5em;
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--gold-light);
 }
 
 /* ---------- Section headings ---------- */
@@ -382,7 +418,7 @@ a.row:active {
 
 .about {
   text-align: center;
-  margin-bottom: 1.75rem;
+  margin-bottom: 1.5rem;
 }
 
 .about p {
@@ -421,13 +457,54 @@ a.row:active {
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
   }
 
-  .logo-main {
-    font-size: 2.3rem;
-  }
-
   .identity h1 {
     font-size: 2rem;
   }
+}
+
+/* ---------- Arabic page (ar.html, right-to-left) ---------- */
+
+html[dir="rtl"] {
+  --font: "Cairo", "Montserrat", system-ui, -apple-system, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* Letter-spacing breaks joined Arabic letters, so it is removed on the Arabic page */
+html[dir="rtl"] body * {
+  letter-spacing: normal !important;
+}
+
+html[dir="rtl"] .identity h1 {
+  font-size: 2rem;
+}
+
+html[dir="rtl"] .identity .title,
+html[dir="rtl"] .details h2,
+html[dir="rtl"] .about h2,
+html[dir="rtl"] .row-label {
+  font-size: 0.9rem;
+}
+
+html[dir="rtl"] .btn-save,
+html[dir="rtl"] .btn-share {
+  font-size: 1rem;
+}
+
+html[dir="rtl"] .about p {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+/* Any Arabic text on any page (e.g. the "العربية" link, the 404 page) */
+[lang="ar"],
+[lang="ar"] * {
+  font-family: "Cairo", "Montserrat", system-ui, -apple-system, "Segoe UI", Tahoma, Arial, sans-serif;
+  letter-spacing: normal !important;
+}
+
+/* ---------- 404 page ---------- */
+
+.not-found .identity h1 {
+  font-size: 1.4rem;
 }
 
 /* ---------- Respect reduced motion ---------- */
