@@ -9,7 +9,7 @@ People open it by scanning a QR code on his printed business card, then contact 
 - Saeed (owner) updates content only through Claude Code. No admin panel.
 
 ## Content — English page (index.html)
-- Logo: official INOVEX logo image `assets/logo.png` (it already includes "GROUP" and the tagline "INSPIRED BY INNOVATION"). Use the image exactly as supplied; do not redraw or edit it. A higher-quality file from the marketing team will later replace it with the same file name.
+- Logo: official INOVEX logo image `assets/images/logo.png` (it already includes "GROUP" and the tagline "INSPIRED BY INNOVATION"). Use the image exactly as supplied; do not redraw or edit it. A higher-quality file from the marketing team will later replace it with the same file name.
 - Name: SAEED GARFAN
 - Title: Sales Engineer
 - Company: INOVEX Group
@@ -34,7 +34,7 @@ Same content and order as the English page, as a faithful Arabic version:
 ## Features
 1. English page (index.html) and Arabic page (ar.html), with a language link at the top of each ("العربية" / "English").
 2. Each contact method appears ONCE, as a tappable row (icon + label + value): Phone, WhatsApp, Email, Website, LinkedIn, Location. External links open in a new tab.
-3. "Save Contact" button that downloads a vCard file (saeed-garfan.vcf, vCard 3.0) with name, title, company, phone, email, website, LinkedIn and city. Both pages use the same file.
+3. "Save Contact" button that downloads a vCard file (contact/saeed-garfan.vcf, vCard 3.0) with name, title, company, phone, email, website, LinkedIn and city. Both pages use the same file.
 4. "Share" button: opens the phone's share menu; on a computer it copies the page link and shows "Link copied" / "تم نسخ الرابط".
 5. Black and gold design matching the printed business card.
 6. Mobile-first layout that works from 320px wide phones up to desktop.
@@ -56,8 +56,8 @@ Language link -> Header (logo image) -> Identity (name, title, company) -> About
 None. No cookies, no tracking, no forms, no personal data collected from visitors.
 
 ## Technology
-Plain HTML + CSS, plus one tiny script (script.js: footer year + Share button). No frameworks, no build step.
-Files: index.html, ar.html, 404.html, styles.css, script.js, saeed-garfan.vcf, assets/ (logo, icons, favicon, preview image, fonts/), qr/, _config.yml (keeps the .md files off the live site).
+Plain HTML + CSS, plus one tiny script (js/script.js: footer year + Share button). No frameworks, no build step.
+Files (see the folder map in README.md): index.html, ar.html, 404.html in the root folder; docs/ (SPEC.md, PLAN.md), contact/ (saeed-garfan.vcf), css/ (styles.css), js/ (script.js), assets/images/ (logo, preview image), assets/icons/ (favicons), assets/fonts/, qr/; _config.yml keeps docs/, CLAUDE.md and README.md off the live site.
 
 ## Design notes
 - Background near-black (#0B0B0B to #151515). Gold accent around #C9A24A with a soft gradient to #E6C77A. Text white/silver (#EDEDED, #BFBFBF).

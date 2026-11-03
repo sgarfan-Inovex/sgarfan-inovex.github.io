@@ -51,5 +51,16 @@ How to test: open the live site; the About bio shows; https://sgarfan-inovex.git
 - [x] SPEC.md, CLAUDE.md and README.md updated
 How to test: on a phone, open the site: Save Contact is visible without scrolling; tap Share; tap "العربية" and check the Arabic page; open https://sgarfan-inovex.github.io/test-wrong-link and check the 404 page.
 
+## Milestone 8.1 — Small fix (2026-11-03)
+- [x] Arabic page: the "English" link points to index.html, so it also works when the file is opened from the computer
+How to test: double-click ar.html, tap "English": the English page opens (not a folder list).
+
+## Milestone 9 — Organize files into folders (2026-11-03)
+- [x] Moved files with git mv (history kept): docs/ (SPEC.md, PLAN.md), contact/ (saeed-garfan.vcf), css/ (styles.css), js/ (script.js), assets/images/ (logo, link preview image), assets/icons/ (favicons)
+- [x] Kept in the root folder: index.html (printed QR code), ar.html, 404.html, CLAUDE.md, README.md, config files
+- [x] Updated all paths in index.html, ar.html, 404.html and css/styles.css (fonts)
+- [x] _config.yml excludes docs/; CLAUDE.md, README.md (new "Folder map") and docs/SPEC.md updated
+How to test: open the live site and the Arabic page: logo, fonts, favicon and Save Contact all work; https://sgarfan-inovex.github.io/docs/SPEC.md shows the 404 page.
+
 ## Later
-- [ ] Replace assets/logo.png with the higher-quality logo file from the marketing team (same file name)
+- [ ] Replace assets/images/logo.png with the higher-quality logo file from the marketing team (same file name)
